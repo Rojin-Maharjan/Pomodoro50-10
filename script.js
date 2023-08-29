@@ -47,14 +47,14 @@ function start(){
             breakTittle.classList.remove('active');
             workTittle.classList.add('active'); 
         }
-        function playSound(audioName, loop){
-            let audio = new Audio(audioName);
-            audio.loop = loop;
-            audio.play();
-        }
-        playSound("sound/iPhone-Alarm-Original.mp3", true);
+        // function playSound(audioName, loop){
+        //     let audio = new Audio(audioName);
+        //     audio.loop = loop;
+        //     audio.play();
+        // }
+        // playSound("sound/iPhone-Alarm-Original.mp3", true);
 
-        }
+        // }
         seconds = 59;
     }
     }
