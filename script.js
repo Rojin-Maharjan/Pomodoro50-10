@@ -54,7 +54,7 @@ function start(){
         // }
         // playSound("sound/iPhone-Alarm-Original.mp3", true);
 
-        // }
+        }
         seconds = 59;
     }
     }
