@@ -51,36 +51,41 @@ section{
     text-transform: uppercase;
     border: 2px solid var(--color-font);
 }
-.panel p.active{
+.panel button{
+    border: none;
+    background-color: transparent;
+    font-size: 1.6rem;
+    color: var(--color-font);
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.panel button.active{
     color: var(--color-active);
 }
 .timer{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 26rem;
+    width: 40rem;
     height: 26rem;
     position: relative;
    
 }
-.time{
+#time{
     position: relative;
     display: flex;
     flex-direction: row;
-}
-.time p{
     font-size: 10rem;
-}
-.time p:nth-of-type(2){
-    position: relative;
-    top: -.5rem;
-    margin-inline: 1rem;
+    color: var(--color-font);
+    font-family: 'poppins', sans-serif;
 }
 .controls{
     margin-top: 3rem;
     cursor: pointer;
+    display: flex;
+    flex-direction: row;
 }
-.controls button,a{
+.controls button{
     border-radius: 20px;
     padding: 7px 25px;
     font-size: 2rem;
@@ -90,6 +95,9 @@ section{
     cursor: pointer;
     text-decoration: none;
 }
-.controls #reset{
+.show{
+    display: block;
+}
+.hide{
     display: none;
 }
